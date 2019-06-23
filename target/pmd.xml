@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.2.3" timestamp="2015-05-16T00:59:19.457">
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\prim\src\main\java\hr\fer\zemris\java\gui\prim\PrimDemo.java">
+<violation beginline="32" endline="39" begincolumn="16" endcolumn="9" rule="CallSuperInConstructor" ruleset="Controversial" package="hr.fer.zemris.java.gui.prim" class="PrimDemo" method="PrimDemo" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#CallSuperInConstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="47" endline="47" begincolumn="17" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimDemo" method="initGUI" variable="model" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'model' could be declared final
+</violation>
+<violation beginline="49" endline="49" begincolumn="17" endcolumn="68" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimDemo" method="initGUI" variable="rightList" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rightList' could be declared final
+</violation>
+<violation beginline="50" endline="50" begincolumn="17" endcolumn="67" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimDemo" method="initGUI" variable="leftList" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'leftList' could be declared final
+</violation>
+<violation beginline="52" endline="52" begincolumn="17" endcolumn="70" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimDemo" method="initGUI" variable="rightListPane" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'rightListPane' could be declared final
+</violation>
+<violation beginline="53" endline="53" begincolumn="17" endcolumn="68" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimDemo" method="initGUI" variable="leftListPane" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'leftListPane' could be declared final
+</violation>
+<violation beginline="54" endline="55" begincolumn="17" endcolumn="44" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimDemo" method="initGUI" variable="splitPane" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'splitPane' could be declared final
+</violation>
+<violation beginline="58" endline="58" begincolumn="17" endcolumn="56" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimDemo" method="initGUI" variable="nextButton" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'nextButton' could be declared final
+</violation>
+<violation beginline="70" endline="70" begincolumn="33" endcolumn="45" rule="UseVarargs" ruleset="Design" package="hr.fer.zemris.java.gui.prim" class="PrimDemo" method="main" variable="args" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UseVarargs" priority="4">
+Consider using varargs for methods or constructors which take an array the last parameter.
+</violation>
+<violation beginline="70" endline="70" begincolumn="33" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimDemo" method="main" variable="args" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="73" endline="73" begincolumn="25" endcolumn="56" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimDemo" method="main" variable="primDemo" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'primDemo' could be declared final
+</violation>
+<violation beginline="89" endline="89" begincolumn="39" endcolumn="43" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.prim" class="PrimDemo$NextButtonListener" variable="model" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'model' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="95" endline="95" begincolumn="43" endcolumn="66" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimDemo$NextButtonListener" method="NextButtonListener" variable="model" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'model' is not assigned and could be declared final
+</violation>
+<violation beginline="100" endline="100" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.prim" class="PrimDemo$NextButtonListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="100" endline="100" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimDemo$NextButtonListener" method="mouseClicked" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="106" endline="106" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.prim" class="PrimDemo$NextButtonListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="106" endline="107" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.prim" class="PrimDemo$NextButtonListener" method="mousePressed" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="106" endline="106" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimDemo$NextButtonListener" method="mousePressed" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="110" endline="110" begincolumn="54" endcolumn="54" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.prim" class="PrimDemo$NextButtonListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="110" endline="111" begincolumn="57" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.prim" class="PrimDemo$NextButtonListener" method="mouseReleased" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="110" endline="110" begincolumn="43" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimDemo$NextButtonListener" method="mouseReleased" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="114" endline="114" begincolumn="53" endcolumn="53" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.prim" class="PrimDemo$NextButtonListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="114" endline="115" begincolumn="56" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.prim" class="PrimDemo$NextButtonListener" method="mouseEntered" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="114" endline="114" begincolumn="42" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimDemo$NextButtonListener" method="mouseEntered" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+<violation beginline="118" endline="118" begincolumn="52" endcolumn="52" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.prim" class="PrimDemo$NextButtonListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like e
+</violation>
+<violation beginline="118" endline="119" begincolumn="55" endcolumn="17" rule="UncommentedEmptyMethod" ruleset="Design" package="hr.fer.zemris.java.gui.prim" class="PrimDemo$NextButtonListener" method="mouseExited" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#UncommentedEmptyMethod" priority="3">
+Document empty method
+</violation>
+<violation beginline="118" endline="118" begincolumn="41" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimDemo$NextButtonListener" method="mouseExited" variable="e" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'e' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Vili\workspaceZaJavaTecaj\prim\src\main\java\hr\fer\zemris\java\gui\prim\PrimListModel.java">
+<violation beginline="25" endline="25" begincolumn="31" endcolumn="37" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.prim" class="PrimListModel" variable="numbers" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'numbers' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="30" endline="30" begincolumn="40" endcolumn="48" rule="ImmutableField" ruleset="Design" package="hr.fer.zemris.java.gui.prim" class="PrimListModel" variable="listeners" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'listeners' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="45" endline="57" begincolumn="25" endcolumn="140" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="hr.fer.zemris.java.gui.prim" class="PrimListModel" method="next" variable="listener" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'UR'-anomaly for variable 'listener' (lines '45'-'57').
+</violation>
+<violation beginline="56" endline="56" begincolumn="21" endcolumn="45" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimListModel" method="next" variable="listener" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'listener' could be declared final
+</violation>
+<violation beginline="57" endline="57" begincolumn="48" endcolumn="139" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimListModel" method="next" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="66" endline="66" begincolumn="33" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimListModel" method="isPrime" variable="number" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'number' is not assigned and could be declared final
+</violation>
+<violation beginline="70" endline="70" begincolumn="33" endcolumn="45" rule="OnlyOneReturn" ruleset="Controversial" package="hr.fer.zemris.java.gui.prim" class="PrimListModel" method="isPrime" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="83" endline="83" begincolumn="37" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimListModel" method="getElementAt" variable="index" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'index' is not assigned and could be declared final
+</violation>
+<violation beginline="89" endline="89" begincolumn="58" endcolumn="58" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.prim" class="PrimListModel" method="addListDataListener" variable="l" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like l
+</violation>
+<violation beginline="89" endline="89" begincolumn="41" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimListModel" method="addListDataListener" variable="l" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'l' is not assigned and could be declared final
+</violation>
+<violation beginline="95" endline="95" begincolumn="61" endcolumn="61" rule="ShortVariable" ruleset="Naming" package="hr.fer.zemris.java.gui.prim" class="PrimListModel" method="removeListDataListener" variable="l" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like l
+</violation>
+<violation beginline="95" endline="95" begincolumn="44" endcolumn="61" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="hr.fer.zemris.java.gui.prim" class="PrimListModel" method="removeListDataListener" variable="l" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'l' is not assigned and could be declared final
+</violation>
+</file>
+</pmd>
